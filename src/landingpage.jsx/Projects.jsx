@@ -67,12 +67,12 @@ export default function Projects() {
 
               {/* Links */}
               <div className="flex items-center justify-between mt-4">
-                <a
+{/*                 <a
                   href={project.liveDemo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline flex items-center gap-1"
-                >
+                > */}
                   <FaExternalLinkAlt /> Live Demo
                 </a>
                 <a
