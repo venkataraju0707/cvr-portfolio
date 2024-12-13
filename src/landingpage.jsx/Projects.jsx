@@ -13,21 +13,21 @@ const projects = [
     title: "Home Price Prediction Model",
     description: "Analyze social media sentiments to gain actionable insights.",
     techStack: ["Python","Google collab"],
-    liveDemo: "https://example.com/sentiment-analysis",
+     
     sourceCode: "https://github.com/venkataraju0707/HOME_PRICE_PREDICTION-IN-PYTHON--MACHINE-LEARNING",
   },
   {
     title: "E-commerce Platform",
     description: "Complete online shopping solution with payment integration.",
     techStack: ["Node.js", "MongoDB", "ReactJS"],
-    liveDemo: "https://example.com/ecommerce-platform",
+    
     sourceCode: "https://github.com/yourusername/ecommerce-platform",
   },
   {
     title: "Group Chat Application",
     description: "Real-time group chat app for seamless communication.",
     techStack: ["ReactJS", "Tailwind CSS", "Node.js"],
-    liveDemo: "https://example.com/group-chat",
+     
     sourceCode: "https://github.com/venkataraju0707/my-chat-app",
   },
 ];
