@@ -1,7 +1,7 @@
 {
-  "homepage": "https://venkataraju0707.github.io/VENKATARAJU-PORTFOLIO",
+  "homepage": "https://github.com/venkataraju0707/venkataraju_portfolio",
   "name": "gsap",
-  "private": true,
+  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
