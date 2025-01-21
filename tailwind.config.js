@@ -1,7 +1,9 @@
-import react from '@vitejs/plugin-react';
+import tailwindTypography from '@tailwindcss/typography';
+import tailwindForms from '@tailwindcss/forms';
+import tailwindAspectRatio from '@tailwindcss/aspect-ratio';
 
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Path to your files
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Ensures Tailwind scans all components for classes
   theme: {
     extend: {
       animation: {
@@ -18,7 +20,18 @@ export default {
           '50%': { transform: 'translateY(-20px)' },
         },
       },
+      screens: {
+        sm: '640px',  // Small screens
+        md: '768px',  // Medium screens
+        lg: '1024px', // Large screens
+        xl: '1280px', // Extra-large screens
+        '2xl': '1536px', // 2X extra-large screens
+      },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    tailwindTypography,  // Adds typography utilities
+    tailwindForms,       // Adds better styling for forms
+    tailwindAspectRatio, // Adds aspect-ratio utilities
+  ],
 };
